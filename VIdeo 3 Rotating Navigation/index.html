@@ -5,11 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>   
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>   
+            </div>
+        </div>
+        <div class="content">
+            <h1>Amazing Article</h1>
+            <small>FLorin Pop</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper feugiat nibh sed. Porttitor rhoncus dolor purus non. 
+                Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Mi in nulla posuere sollicitudin aliquam ultrices 
+                sagittis orci a. Lorem ipsum dolor sit amet consectetur. Eu ultrices vitae auctor eu augue ut lectus arcu. Tortor aliquam nulla facilisi cras fermentum odio eu. Vitae et leo duis ut. Nulla posuere 
+                sollicitudin aliquam ultrices sagittis orci a. Feugiat vivam</p>
+
+            <h3>My Dog</h3>    
+            <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="doggy" />
+            <p>purus sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non enim praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra vitae congue eu consequat</p>
+        </div>
+    </div>
     
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user-alt"></i> Contact</li>
+            <li><i class="fas fa-envelope"></i> About</li>
+        </ul>
+    </nav>
     <script src="javscript.js"></script>
 </body>
 </html>
